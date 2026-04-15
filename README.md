@@ -1,4 +1,4 @@
-<h1>Project 1 </h1>
+<h1>E-commerce Consumer Archetyping</h1>
 
 
 
