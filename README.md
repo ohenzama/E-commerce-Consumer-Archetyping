@@ -7,27 +7,30 @@
 
 <h2>Dataset and Description</h2>
 <b>Source: </b>
+<br />
+<br />
 <b>Size: </b>
-<b>Description: The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
-</b>
+<br />
+<br />
+<b>Description: </b> insert desc
 <br />
 <br />
 <b>Key Features: </b>
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
+- list key features
 <br />
 <br />
 
 
 <h2>Data Cleaning and Pre-Processing</h2>
 
-- <b>ipgeolocation.io:</b> IP Address to Geolocation API
+- cleaning and preprocessing steps
+
 
 <h2>Exploratory Data Analysis</h2>
 
 
-<h2>Modelling</h2>
+<h2>Machine Learning (K-means clustering)</h2>
+- silhoueete score and that other method
 
 <h2>Results and Insights</h2>
 
