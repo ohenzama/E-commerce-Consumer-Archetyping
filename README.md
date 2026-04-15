@@ -2,8 +2,8 @@
 
 <h2>Tools Used</h2>
 
-- <b>Python, POWER BI :</b> Extract RDP failed logon logs from Windows Event Viewer 
-
+- <b>Python:</b> Data Cleaning, Pre-processing, EDA, Modelling 
+- <b>POWER BI:</b> Dashboarding
 
 <h2>Dataset and Description</h2>
 <b>Source: </b>
