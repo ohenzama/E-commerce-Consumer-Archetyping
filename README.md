@@ -19,10 +19,6 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 <br />
 <br />
 
-<p align="center">
-<img src="https://i.imgur.com/3d3CEwZ.png" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>
-</p>
-
 
 <h2>Data Cleaning and Pre-Processing</h2>
 
