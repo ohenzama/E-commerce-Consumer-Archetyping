@@ -40,6 +40,12 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 
 <h2>Recommendations</h2>
 
+<h2>Dashboard</h2>
+
+https://github.com/user-attachments/assets/4f794dc2-9bca-415e-b4f0-d5a42256a516
+
+
+
 <!--
  ```diff
 - text in red
