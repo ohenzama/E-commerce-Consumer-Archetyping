@@ -2,7 +2,7 @@
 
 <h2>Tools Used</h2>
 
-- <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer 
+- <b>Python, POWER BI :</b> Extract RDP failed logon logs from Windows Event Viewer 
 
 
 <h2>Dataset and Description</h2>
