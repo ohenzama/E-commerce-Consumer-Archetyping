@@ -9,7 +9,7 @@
 <b>Source: </b>
 <br />
 <br />
-<b>Size: </b>
+<b>Size: </b> (21864, 11)
 <br />
 <br />
 <b>Description: </b> Dataset of a fictional company that sells gaming products. Contains more than 20,000 records of online purchase orders. Each row is a record of a purchase made by a customer. 
@@ -101,7 +101,7 @@
 - Observed improved customer retention across all segments by 9.3%.
 
 - 
-<h2>Dashboard</h2>
+<h2>Dashboard /  EDA </h2>
 
 https://github.com/user-attachments/assets/4f794dc2-9bca-415e-b4f0-d5a42256a516
 
