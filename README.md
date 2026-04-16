@@ -87,8 +87,20 @@
 **Cluster 3** yielded low monetary value and late recency. This is our least important group, as they didn’t give us that much money anyway. If advertising costs are being considered, marketing strategy on this cluster, if any, should be the LIGHTEST compared to the other clusters.
 
 <h2>Intervention Strategy Simulation </h2>
-- 
+- Assigned base retention using a proxy of lower recency corresponding to higher retention probability. 
+- Determined lift effects per cluster. 
+**Cluster 0:** loyal low-spending user; **moderate** marketing approach. treatment effect is 5%
 
+**Cluster 1:** churning/at risk users; **aggressive** marketing approach. treatment effect is 10%.
+
+**Clusters 2 and 3:** **conservative** marketing approach. treatment effect between 2-4%.
+- Used our proxy to calculate baseline retention rate. Calculated baseline retention rates of 0.69732978 for cluster 0, 0.12040556 for cluster 1, 0.7 for cluster 2, and 0.1 for cluster 3.
+
+- Calculated new retention rates. Mapped each cluster to its lift effect (either 0.05, 0.10, 0.02, or 0.04) to calculate customer retention after applying personalized marketing strategies. 
+
+- Observed improved customer retention across all segments by 9.3%.
+
+- 
 <h2>Dashboard</h2>
 
 https://github.com/user-attachments/assets/4f794dc2-9bca-415e-b4f0-d5a42256a516
