@@ -2,8 +2,8 @@
 
 <h2>Tools Used</h2>
 
-- <b>Python:</b> Data Cleaning, Pre-processing, EDA, Unsupervised Machine Learning (K-means clustering) 
-- <b>POWER BI:</b> Dashboarding
+- <b>Python:</b> Data Cleaning, Pre-processing, Unsupervised Machine Learning (K-means clustering) 
+- <b>POWER BI:</b> Dashboarding / EDA
 
 <h2>Dataset and Description</h2>
 <b>Source: </b>
