@@ -100,7 +100,6 @@
 
 - Observed improved customer retention across all segments by 9.3%.
 
-- 
 <h2>Dashboard /  EDA </h2>
 
 https://github.com/user-attachments/assets/4f794dc2-9bca-415e-b4f0-d5a42256a516
