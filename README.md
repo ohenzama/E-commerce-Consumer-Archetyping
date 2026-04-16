@@ -44,6 +44,7 @@
 
 
 <h2>Data Cleaning and Pre-Processing</h2>
+
 - Trimmed whitespaces in the text
 
 - Some rows had too many missing values, so those were removed.
@@ -60,20 +61,33 @@
 
 
 <h2>Machine Learning (K-means clustering)</h2>
-- Created an aggregated dataframe to compute the **Monetary values** and **rRcency** of each unique user
+- Created an aggregated dataframe to compute the **Monetary values** and **Recency** of each unique user
 
 - Since K-means clustering is sensitive to outliers, used boxplots to check outliers for the **Monetary Value** and **Recency** distributions. Outliers were detected for monetary values, and a little for recency, so those were filtered out using the IQR formula for outliers.
   
 - A table of main values was made, and then a table of outlier values were made. Clustering will be performed on the main table.
+
+
 **For the main table...**
  
 - Standardized the data
   
 - Used inertia and silhouette score to **find optimal k = 4**, also achieving *inertia percent reduction of 77%*
 
-<h2>Results and Insights</h2>
+- Created a violin plot reporting distributions of monetary value and recency for each cluster. This plot identified important customers based on monetary value, as well as the clusters with high risk of churn based on recency. 
 
-<h2>Recommendations</h2>
+<h2>Results and Reccomendations </h2>
+
+**Cluster 0** is recent recency and low monetary value. These are our loyal low-spending users. Primary goal with this cluster is to identify popular products among them and try to get them to buy more. Using the dashboard, we see that Nintendo switch is the most popular product among users in cluster 0. We can try marketing products similar to the Switch, or cheap, complimentary products to go with the switch. 
+
+**Cluster 1** yielded high monetary value, yet late recency. These are our at-risk users. Primary goal with this cluster is to implement personalized advertising strategies to get them to buy from us again. The Gaming Monitor was the most popular product for Cluster 1. We could double down on products similar to the gaming monitor, or also invest in updated versions with the hope that the high-spending cluster will buy them.
+
+**Cluster 2** yielded high monetary value and recent recency. These are our loyal high-spending users. If advertising costs are being considered, marketing strategy on this cluster should be lighter compared to the other clusters.
+
+**Cluster 3** yielded low monetary value and late recency. This is our least important group, as they didn’t give us that much money anyway. If advertising costs are being considered, marketing strategy on this cluster, if any, should be the LIGHTEST compared to the other clusters.
+
+<h2>Intervention Strategy Simulation </h2>
+- 
 
 <h2>Dashboard</h2>
 
