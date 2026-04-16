@@ -45,21 +45,31 @@
 
 <h2>Data Cleaning and Pre-Processing</h2>
 - Trimmed whitespaces in the text
+
 - Some rows had too many missing values, so those were removed.
+  
 - Standardized missing value placeholders, replacing blank spaces with consistent NA representation
+
 - Removed duplicate order IDs
+  
 - Data type transformations (changed **PURCHASE_TS**  to datetime type)
+  
 - **Standardizing text:** there were some products that were spelled differently (ex: the spacing and casing were off), so I identified all the unique values and picked a consistent way to spell them.
-- **LOGICAL ERROR FIX:** Some rows had “SHIP_TS” greater than “PURCHASE_TS” which didn’t make sense. Removing them would be a hefty data loss of about 2000 rows. If this were an actual company’s dataset, I would have referred to the stakeholders and inquired if those date should actually be flipped. So I just pretended I did that, then I swapped the dates where I found those errors to occur.
+  
+- **Logical Error Fix:** Some rows had “SHIP_TS” greater than “PURCHASE_TS” which didn’t make sense. Removing them would be a hefty data loss of about 2000 rows. If this were an actual company’s dataset, I would have referred to the stakeholders and inquired if those date should actually be flipped. So I just pretended I did that, then I swapped the dates where I found those errors to occur.
 
 
 <h2>Machine Learning (K-means clustering)</h2>
-- Created an aggregated dataframe to compute the **Monetary values** and **recency** of each unique user
+- Created an aggregated dataframe to compute the **Monetary values** and **rRcency** of each unique user
+
 - Since K-means clustering is sensitive to outliers, used boxplots to check outliers for the **Monetary Value** and **Recency** distributions. Outliers were detected for monetary values, and a little for recency, so those were filtered out using the IQR formula for outliers.
+  
 - A table of main values was made, and then a table of outlier values were made. Clustering will be performed on the main table.
 **For the main table...**
+ 
 - Standardized the data
-- Used inertia and silhouette score to find optimal k = 4
+  
+- Used inertia and silhouette score to **find optimal k = 4**, also achieving *inertia percent reduction of 77%*
 
 <h2>Results and Insights</h2>
 
