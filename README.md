@@ -61,6 +61,7 @@
 
 
 <h2>Machine Learning (K-means clustering)</h2>
+
 - Created an aggregated dataframe to compute the **Monetary values** and **Recency** of each unique user
 
 - Since K-means clustering is sensitive to outliers, used boxplots to check outliers for the **Monetary Value** and **Recency** distributions. Outliers were detected for monetary values, and a little for recency, so those were filtered out using the IQR formula for outliers.
