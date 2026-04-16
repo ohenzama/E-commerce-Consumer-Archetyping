@@ -76,7 +76,7 @@
 
 - Created a violin plot reporting distributions of monetary value and recency for each cluster. This plot identified important customers based on monetary value, as well as the clusters with high risk of churn based on recency. 
 
-<h2>Results and Reccomendations </h2>
+<h2>Results and Recommendations </h2>
 
 **Cluster 0** is recent recency and low monetary value. These are our loyal low-spending users. Primary goal with this cluster is to identify popular products among them and try to get them to buy more. Using the dashboard, we see that Nintendo switch is the most popular product among users in cluster 0. We can try marketing products similar to the Switch, or cheap, complimentary products to go with the switch. 
 
